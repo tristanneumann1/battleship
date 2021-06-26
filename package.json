@@ -1,0 +1,23 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest .",
+    "graph": "depcruise --do-not-follow \"(test)\" --exclude \"(^node_modules|constants)\" --output-type dot server --progress | dot -T svg > dependencygraph.svg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prompt-promise": "^1.0.3",
+    "jest": "^27.0.4"
+  }
+}

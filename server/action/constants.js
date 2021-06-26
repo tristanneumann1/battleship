@@ -1,0 +1,7 @@
+const ACTION_TYPES = {
+  NO_ACTION: 'NO_ACTION',
+  MISSILE: 'MISSILE',
+  SEARCH: 'SEARCH'
+}
+
+module.exports = { ACTION_TYPES }
