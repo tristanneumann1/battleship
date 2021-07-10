@@ -1,7 +1,7 @@
 const Grid = require('../grid/Grid')
 const ShipPlacement = require('./ShipPlacement')
 const {MOVE, ROTATE} = require('./constants')
-const { InvalidShipPlacement, UnauthorizedShipManipulation } = require('../exception/exceptions')
+const { InvalidShipPlacement, UnauthorizedShipManipulation } = require('../../exception/exceptions')
 const { ShipCell, EmptyCell } = require('../cell/Cell')
 const { NCellShip } = require('../ship/Ship')
 

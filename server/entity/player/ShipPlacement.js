@@ -1,4 +1,4 @@
-const { InvalidShipPlacement, UnauthorizedShipManipulation } = require('../exception/exceptions')
+const { InvalidShipPlacement, UnauthorizedShipManipulation } = require('../../exception/exceptions')
 const { CELL_TYPES } = require('../cell/constants')
 const { v4 } = require('uuid')
 const { ROTATE, MOVE } = require('./constants')

@@ -1,7 +1,7 @@
 const { RIGHT, UP, LEFT, DOWN } = require('../cell/constants').DIRECTIONS
 const { ShipCell } = require('../cell/Cell')
 const { Ship, SingleCellShip, NCellShip } = require('./Ship')
-const { CellNotFound, DirectionNotFound } = require('../exception/exceptions')
+const { CellNotFound, DirectionNotFound } = require('../../exception/exceptions')
 
 
 describe('Ships', () => {

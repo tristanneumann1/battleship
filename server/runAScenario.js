@@ -1,7 +1,7 @@
-const { PlayerNCellShips } = require('./player/Player')
-const Grid = require('./grid/Grid')
-const Game = require('./game/Game')
-const MissileAction = require('./action/MissileAction')
+const { PlayerNCellShips } = require('./entities/player/Player')
+const Grid = require('./entities/grid/Grid')
+const Game = require('./entities/game/Game')
+const MissileAction = require('./entities/action/MissileAction')
 const prompt = require('prompt-promise')
 
 async function scenario1 () {

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server",
     "test": "jest .",
     "graph": "depcruise --do-not-follow \"(test)\" --exclude \"(^node_modules|constants)\" --output-type dot server --progress | dot -T svg > dependencygraph.svg"
   },
@@ -17,7 +18,8 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "prompt-promise": "^1.0.3",
-    "jest": "^27.0.4"
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.11",
+    "prompt-promise": "^1.0.3"
   }
 }

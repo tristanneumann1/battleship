@@ -1,7 +1,7 @@
 const Scenario = require('./Scenario')
 const Grid = require('../grid/Grid')
 const {Player, PlayerNCellShips} = require('../player/Player')
-const {isUuid} = require('../../test/utils')
+const {isUuid} = require('../../../test/utils')
 
 describe('Scenario', () => {
   it('builds a scenario', () => {

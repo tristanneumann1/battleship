@@ -1,4 +1,4 @@
-const {isUuid} = require('../../test/utils')
+const {isUuid} = require('../../../test/utils')
 const Action = require('./Action')
 
 describe('Action', () => {

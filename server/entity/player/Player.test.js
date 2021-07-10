@@ -1,7 +1,7 @@
 const Grid = require('../grid/Grid')
 const ShipPlacement = require('./ShipPlacement')
 const {NCellShip, SingleCellShip} = require('../ship/Ship')
-const {isUuid} = require('../../test/utils')
+const {isUuid} = require('../../../test/utils')
 const {Player, PlayerNCellShips} = require('./Player')
 
 describe('Player', () => {

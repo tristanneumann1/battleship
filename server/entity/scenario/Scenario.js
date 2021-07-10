@@ -18,13 +18,6 @@ class Scenario {
     }
     this.players.push(player)
   }
-
-  dto() {
-    return {
-      id: this.id,
-      options: this.gridOptions
-    }
-  }
 }
 
 module.exports = Scenario

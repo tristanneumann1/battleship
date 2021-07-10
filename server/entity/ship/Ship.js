@@ -1,7 +1,7 @@
 const { ShipCell, CellWithCoordinatesDTO } = require('../cell/Cell')
 const { DIRECTIONS } = require('../cell/constants')
 const {vectorOperation} = require('../cell/utils')
-const { CellNotFound, DirectionNotFound } = require('../exception/exceptions')
+const { CellNotFound, DirectionNotFound } = require('../../exception/exceptions')
 
 class Ship {
   orientation = 0

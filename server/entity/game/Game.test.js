@@ -3,7 +3,7 @@ const { Player } = require('../player/Player')
 const Action = require('../action/Action')
 const ShipPlacement = require('../player/ShipPlacement')
 const {Ship} = require('../ship/Ship')
-const {isUuid} = require('../../test/utils')
+const {isUuid} = require('../../../test/utils')
 
 function getPlayers() {
   const player1 = new Player()
