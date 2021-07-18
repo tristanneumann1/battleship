@@ -1,10 +1,3 @@
-module.exports.RouteNotFound = class extends Error {
-  constructor(path) {
-    super(`The desired address: ${path}, is unavailable`);
-    this.status = 404
-  }
-}
-
 module.exports.CellNotFound = class extends Error {
   constructor() {
     super('Cell could not be found')

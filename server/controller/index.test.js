@@ -16,7 +16,6 @@ describe('Controller', () => {
   function createController (response = {}) {
     method.mockReturnValue(response)
     controller = new Controller()
-    controller.addRoute(path, method)
   }
 
   it('can register a route', () => {
@@ -24,6 +23,7 @@ describe('Controller', () => {
     createController()
     const payload = {}
     // WHEN
+    controller.addRoute(path, method)
     controller.call(path, payload)
     // THEN
     expect(method.mock.instances[0]).toBe(controller)

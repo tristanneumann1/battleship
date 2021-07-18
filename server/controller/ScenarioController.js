@@ -7,13 +7,14 @@ class ScenarioController extends Controller {
   constructor(state) {
     super(state);
     this.addRoute('/create', this.createScenario)
+    this.addRoute('/:id/register', this.registerPlayer())
   }
 
   createScenario(options) {
     return new Scenario(options)
   }
 
-  registerPlayer({ scenarioId, playerOptions }) {
+  registerPlayer(scenarioId, { playerOptions }) {
     const scenario = this.state.liveScenarios.find(scenario => scenario.id === scenarioId)
     scenario.register(playerOptions)
     return scenario
